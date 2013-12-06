@@ -10,17 +10,21 @@
 		64C4BB581851A24100695959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB571851A24100695959 /* Foundation.framework */; };
 		64C4BB5A1851A24100695959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB591851A24100695959 /* CoreGraphics.framework */; };
 		64C4BB5C1851A24100695959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB5B1851A24100695959 /* UIKit.framework */; };
-		64C4BB621851A24100695959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C4BB601851A24100695959 /* InfoPlist.strings */; };
-		64C4BB641851A24100695959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4BB631851A24100695959 /* main.m */; };
-		64C4BB681851A24100695959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4BB671851A24100695959 /* AppDelegate.m */; };
-		64C4BB6B1851A24100695959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C4BB691851A24100695959 /* Main.storyboard */; };
-		64C4BB6E1851A24100695959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4BB6D1851A24100695959 /* ViewController.m */; };
-		64C4BB701851A24100695959 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C4BB6F1851A24100695959 /* Images.xcassets */; };
 		64C4BB771851A24100695959 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB761851A24100695959 /* XCTest.framework */; };
 		64C4BB781851A24100695959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB571851A24100695959 /* Foundation.framework */; };
 		64C4BB791851A24100695959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB5B1851A24100695959 /* UIKit.framework */; };
 		64C4BB811851A24100695959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C4BB7F1851A24100695959 /* InfoPlist.strings */; };
 		64C4BB831851A24100695959 /* DoubanActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4BB821851A24100695959 /* DoubanActivityTests.m */; };
+		64F9BD951851A2D600F112A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F9BD8A1851A2D600F112A5 /* AppDelegate.m */; };
+		64F9BD961851A2D600F112A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD8B1851A2D600F112A5 /* Main.storyboard */; };
+		64F9BD971851A2D600F112A5 /* DoubanActivity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD8D1851A2D600F112A5 /* DoubanActivity-Info.plist */; };
+		64F9BD981851A2D600F112A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD8F1851A2D600F112A5 /* InfoPlist.strings */; };
+		64F9BD991851A2D600F112A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD911851A2D600F112A5 /* Images.xcassets */; };
+		64F9BD9A1851A2D600F112A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F9BD921851A2D600F112A5 /* main.m */; };
+		64F9BD9B1851A2D600F112A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F9BD941851A2D600F112A5 /* ViewController.m */; };
+		64F9BD9F1851A2F700F112A5 /* icon_douban.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD9D1851A2F700F112A5 /* icon_douban.png */; };
+		64F9BDA01851A2F700F112A5 /* icon_douban@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */; };
+		64F9BDA31851A34300F112A5 /* DoubanActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F9BDA21851A34300F112A5 /* DoubanActivity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +42,25 @@
 		64C4BB571851A24100695959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64C4BB591851A24100695959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		64C4BB5B1851A24100695959 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		64C4BB5F1851A24100695959 /* DoubanActivity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanActivity-Info.plist"; sourceTree = "<group>"; };
-		64C4BB611851A24100695959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		64C4BB631851A24100695959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64C4BB651851A24100695959 /* DoubanActivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubanActivity-Prefix.pch"; sourceTree = "<group>"; };
-		64C4BB661851A24100695959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		64C4BB671851A24100695959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64C4BB6A1851A24100695959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64C4BB6C1851A24100695959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64C4BB6D1851A24100695959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		64C4BB6F1851A24100695959 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64C4BB751851A24100695959 /* DoubanActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubanActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4BB761851A24100695959 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		64C4BB7E1851A24100695959 /* DoubanActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanActivityTests-Info.plist"; sourceTree = "<group>"; };
 		64C4BB801851A24100695959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64C4BB821851A24100695959 /* DoubanActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanActivityTests.m; sourceTree = "<group>"; };
+		64F9BD891851A2D600F112A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64F9BD8A1851A2D600F112A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64F9BD8C1851A2D600F112A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F9BD8D1851A2D600F112A5 /* DoubanActivity-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DoubanActivity-Info.plist"; path = "DoubanActivityDemo/DoubanActivity-Info.plist"; sourceTree = SOURCE_ROOT; };
+		64F9BD8E1851A2D600F112A5 /* DoubanActivity-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DoubanActivity-Prefix.pch"; path = "DoubanActivityDemo/DoubanActivity-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		64F9BD901851A2D600F112A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64F9BD911851A2D600F112A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		64F9BD921851A2D600F112A5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DoubanActivityDemo/main.m; sourceTree = SOURCE_ROOT; };
+		64F9BD931851A2D600F112A5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64F9BD941851A2D600F112A5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64F9BD9D1851A2F700F112A5 /* icon_douban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_douban.png; sourceTree = "<group>"; };
+		64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_douban@2x.png"; sourceTree = "<group>"; };
+		64F9BDA11851A34300F112A5 /* DoubanActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubanActivity.h; sourceTree = "<group>"; };
+		64F9BDA21851A34300F112A5 /* DoubanActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanActivity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 		64C4BB4B1851A24100695959 = {
 			isa = PBXGroup;
 			children = (
+				64F9BD881851A2D600F112A5 /* DoubanActivityDemo */,
 				64C4BB5D1851A24100695959 /* DoubanActivity */,
 				64C4BB7C1851A24100695959 /* DoubanActivityTests */,
 				64C4BB561851A24100695959 /* Frameworks */,
@@ -112,13 +121,9 @@
 		64C4BB5D1851A24100695959 /* DoubanActivity */ = {
 			isa = PBXGroup;
 			children = (
-				64C4BB661851A24100695959 /* AppDelegate.h */,
-				64C4BB671851A24100695959 /* AppDelegate.m */,
-				64C4BB691851A24100695959 /* Main.storyboard */,
-				64C4BB6C1851A24100695959 /* ViewController.h */,
-				64C4BB6D1851A24100695959 /* ViewController.m */,
-				64C4BB6F1851A24100695959 /* Images.xcassets */,
-				64C4BB5E1851A24100695959 /* Supporting Files */,
+				64F9BD9C1851A2F700F112A5 /* Resources */,
+				64F9BDA11851A34300F112A5 /* DoubanActivity.h */,
+				64F9BDA21851A34300F112A5 /* DoubanActivity.m */,
 			);
 			path = DoubanActivity;
 			sourceTree = "<group>";
@@ -126,12 +131,13 @@
 		64C4BB5E1851A24100695959 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				64C4BB5F1851A24100695959 /* DoubanActivity-Info.plist */,
-				64C4BB601851A24100695959 /* InfoPlist.strings */,
-				64C4BB631851A24100695959 /* main.m */,
-				64C4BB651851A24100695959 /* DoubanActivity-Prefix.pch */,
+				64F9BD8D1851A2D600F112A5 /* DoubanActivity-Info.plist */,
+				64F9BD8E1851A2D600F112A5 /* DoubanActivity-Prefix.pch */,
+				64F9BD921851A2D600F112A5 /* main.m */,
+				64F9BD8F1851A2D600F112A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = ../DoubanActivity;
 			sourceTree = "<group>";
 		};
 		64C4BB7C1851A24100695959 /* DoubanActivityTests */ = {
@@ -150,6 +156,29 @@
 				64C4BB7F1851A24100695959 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F9BD881851A2D600F112A5 /* DoubanActivityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64C4BB5E1851A24100695959 /* Supporting Files */,
+				64F9BD891851A2D600F112A5 /* AppDelegate.h */,
+				64F9BD8A1851A2D600F112A5 /* AppDelegate.m */,
+				64F9BD8B1851A2D600F112A5 /* Main.storyboard */,
+				64F9BD911851A2D600F112A5 /* Images.xcassets */,
+				64F9BD931851A2D600F112A5 /* ViewController.h */,
+				64F9BD941851A2D600F112A5 /* ViewController.m */,
+			);
+			path = DoubanActivityDemo;
+			sourceTree = "<group>";
+		};
+		64F9BD9C1851A2F700F112A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64F9BD9D1851A2F700F112A5 /* icon_douban.png */,
+				64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C4BB701851A24100695959 /* Images.xcassets in Resources */,
-				64C4BB621851A24100695959 /* InfoPlist.strings in Resources */,
-				64C4BB6B1851A24100695959 /* Main.storyboard in Resources */,
+				64F9BD971851A2D600F112A5 /* DoubanActivity-Info.plist in Resources */,
+				64F9BD991851A2D600F112A5 /* Images.xcassets in Resources */,
+				64F9BDA01851A2F700F112A5 /* icon_douban@2x.png in Resources */,
+				64F9BD981851A2D600F112A5 /* InfoPlist.strings in Resources */,
+				64F9BD9F1851A2F700F112A5 /* icon_douban.png in Resources */,
+				64F9BD961851A2D600F112A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C4BB6E1851A24100695959 /* ViewController.m in Sources */,
-				64C4BB681851A24100695959 /* AppDelegate.m in Sources */,
-				64C4BB641851A24100695959 /* main.m in Sources */,
+				64F9BD951851A2D600F112A5 /* AppDelegate.m in Sources */,
+				64F9BDA31851A34300F112A5 /* DoubanActivity.m in Sources */,
+				64F9BD9A1851A2D600F112A5 /* main.m in Sources */,
+				64F9BD9B1851A2D600F112A5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,22 +307,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		64C4BB601851A24100695959 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64C4BB611851A24100695959 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		64C4BB691851A24100695959 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64C4BB6A1851A24100695959 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		64C4BB7F1851A24100695959 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,6 +314,23 @@
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
+		};
+		64F9BD8B1851A2D600F112A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F9BD8C1851A2D600F112A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64F9BD8F1851A2D600F112A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F9BD901851A2D600F112A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = DoubanActivityDemo;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -379,8 +413,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubanActivity/DoubanActivity-Prefix.pch";
-				INFOPLIST_FILE = "DoubanActivity/DoubanActivity-Info.plist";
+				GCC_PREFIX_HEADER = "DoubanActivityDemo/DoubanActivity-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DoubanActivityDemo/DoubanActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,8 +427,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DoubanActivity/DoubanActivity-Prefix.pch";
-				INFOPLIST_FILE = "DoubanActivity/DoubanActivity-Info.plist";
+				GCC_PREFIX_HEADER = "DoubanActivityDemo/DoubanActivity-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/DoubanActivityDemo/DoubanActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +496,7 @@
 				64C4BB881851A24100695959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64C4BB891851A24100695959 /* Build configuration list for PBXNativeTarget "DoubanActivityTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +505,7 @@
 				64C4BB8B1851A24100695959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
