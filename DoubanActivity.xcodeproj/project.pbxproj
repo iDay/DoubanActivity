@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D52DA0E251349FFA0E72A37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3458028E6B2410CBB2CF27F /* libPods.a */; };
+		640D04DB1855580B00CBE3AC /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 640D04DA1855580B00CBE3AC /* libDoubanApiEngine.framework */; };
 		641C80571853785F003D90EB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C80561853785F003D90EB /* libxml2.dylib */; };
 		641C80591853786A003D90EB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C80581853786A003D90EB /* libz.dylib */; };
 		641C805B18537875003D90EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C805A18537875003D90EB /* CFNetwork.framework */; };
@@ -18,7 +19,6 @@
 		641C8073185451ED003D90EB /* DoubanLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641C8071185451ED003D90EB /* DoubanLoginViewController.xib */; };
 		646A94411851A56E009604A9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 646A943F1851A56E009604A9 /* LICENSE */; };
 		646A94421851A56E009604A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 646A94401851A56E009604A9 /* README.md */; };
-		646A944718531314009604A9 /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A944618531314009604A9 /* libDoubanApiEngine.framework */; };
 		64C4BB581851A24100695959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB571851A24100695959 /* Foundation.framework */; };
 		64C4BB5A1851A24100695959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB591851A24100695959 /* CoreGraphics.framework */; };
 		64C4BB5C1851A24100695959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB5B1851A24100695959 /* UIKit.framework */; };
@@ -50,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		640D04DA1855580B00CBE3AC /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libDoubanApiEngine.framework; sourceTree = "<group>"; };
 		641C80561853785F003D90EB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		641C80581853786A003D90EB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		641C805A18537875003D90EB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		641C8071185451ED003D90EB /* DoubanLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubanLoginViewController.xib; sourceTree = "<group>"; };
 		646A943F1851A56E009604A9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		646A94401851A56E009604A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		646A944618531314009604A9 /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libDoubanApiEngine.framework; sourceTree = "<group>"; };
 		64C4BB541851A24100695959 /* DoubanActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4BB571851A24100695959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64C4BB591851A24100695959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				641C806118537888003D90EB /* MobileCoreServices.framework in Frameworks */,
+				640D04DB1855580B00CBE3AC /* libDoubanApiEngine.framework in Frameworks */,
 				641C805F18537882003D90EB /* SystemConfiguration.framework in Frameworks */,
 				641C805D1853787D003D90EB /* Security.framework in Frameworks */,
 				641C805B18537875003D90EB /* CFNetwork.framework in Frameworks */,
@@ -104,7 +105,6 @@
 				64C4BB5C1851A24100695959 /* UIKit.framework in Frameworks */,
 				64C4BB581851A24100695959 /* Foundation.framework in Frameworks */,
 				1D52DA0E251349FFA0E72A37 /* libPods.a in Frameworks */,
-				646A944718531314009604A9 /* libDoubanApiEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +222,7 @@
 		64F9BD9C1851A2F700F112A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				646A944618531314009604A9 /* libDoubanApiEngine.framework */,
+				640D04DA1855580B00CBE3AC /* libDoubanApiEngine.framework */,
 				64F9BD9D1851A2F700F112A5 /* icon_douban.png */,
 				64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */,
 			);

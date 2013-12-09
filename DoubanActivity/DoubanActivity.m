@@ -13,6 +13,19 @@
 
 @implementation DoubanActivity
 
+- (id)initWithViewController:(UIViewController *)viewController
+{
+    self = [self init];
+    if (self) {
+        if (viewController) {
+            _viewController = viewController;
+        } else {
+            _viewController = [[UIApplication sharedApplication].delegate window].rootViewController;
+        }
+    }
+    return self;
+}
+
 - (id)initWithViewController:(UIViewController *)viewController apiKey:(NSString *)apiKey privateKey:(NSString *)privateKey
 {
     self = [self init];
