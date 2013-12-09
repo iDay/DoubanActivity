@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D52DA0E251349FFA0E72A37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3458028E6B2410CBB2CF27F /* libPods.a */; };
+		641C80571853785F003D90EB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C80561853785F003D90EB /* libxml2.dylib */; };
+		641C80591853786A003D90EB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C80581853786A003D90EB /* libz.dylib */; };
+		641C805B18537875003D90EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C805A18537875003D90EB /* CFNetwork.framework */; };
+		641C805D1853787D003D90EB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C805C1853787C003D90EB /* Security.framework */; };
+		641C805F18537882003D90EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C805E18537882003D90EB /* SystemConfiguration.framework */; };
+		641C806118537888003D90EB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 641C806018537888003D90EB /* MobileCoreServices.framework */; };
+		641C8072185451ED003D90EB /* DoubanLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 641C8070185451ED003D90EB /* DoubanLoginViewController.m */; };
+		641C8073185451ED003D90EB /* DoubanLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 641C8071185451ED003D90EB /* DoubanLoginViewController.xib */; };
+		646A94411851A56E009604A9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 646A943F1851A56E009604A9 /* LICENSE */; };
+		646A94421851A56E009604A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 646A94401851A56E009604A9 /* README.md */; };
+		646A944718531314009604A9 /* libDoubanApiEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646A944618531314009604A9 /* libDoubanApiEngine.framework */; };
 		64C4BB581851A24100695959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB571851A24100695959 /* Foundation.framework */; };
 		64C4BB5A1851A24100695959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB591851A24100695959 /* CoreGraphics.framework */; };
 		64C4BB5C1851A24100695959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB5B1851A24100695959 /* UIKit.framework */; };
@@ -38,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641C80561853785F003D90EB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		641C80581853786A003D90EB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		641C805A18537875003D90EB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		641C805C1853787C003D90EB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		641C805E18537882003D90EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		641C806018537888003D90EB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		641C806F185451ED003D90EB /* DoubanLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubanLoginViewController.h; sourceTree = "<group>"; };
+		641C8070185451ED003D90EB /* DoubanLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanLoginViewController.m; sourceTree = "<group>"; };
+		641C8071185451ED003D90EB /* DoubanLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubanLoginViewController.xib; sourceTree = "<group>"; };
+		646A943F1851A56E009604A9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		646A94401851A56E009604A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		646A944618531314009604A9 /* libDoubanApiEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libDoubanApiEngine.framework; sourceTree = "<group>"; };
 		64C4BB541851A24100695959 /* DoubanActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubanActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C4BB571851A24100695959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		64C4BB591851A24100695959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +85,8 @@
 		64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_douban@2x.png"; sourceTree = "<group>"; };
 		64F9BDA11851A34300F112A5 /* DoubanActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubanActivity.h; sourceTree = "<group>"; };
 		64F9BDA21851A34300F112A5 /* DoubanActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanActivity.m; sourceTree = "<group>"; };
+		781B826F70944433B804BAF0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C3458028E6B2410CBB2CF27F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +94,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641C806118537888003D90EB /* MobileCoreServices.framework in Frameworks */,
+				641C805F18537882003D90EB /* SystemConfiguration.framework in Frameworks */,
+				641C805D1853787D003D90EB /* Security.framework in Frameworks */,
+				641C805B18537875003D90EB /* CFNetwork.framework in Frameworks */,
+				641C80591853786A003D90EB /* libz.dylib in Frameworks */,
+				641C80571853785F003D90EB /* libxml2.dylib in Frameworks */,
 				64C4BB5A1851A24100695959 /* CoreGraphics.framework in Frameworks */,
 				64C4BB5C1851A24100695959 /* UIKit.framework in Frameworks */,
 				64C4BB581851A24100695959 /* Foundation.framework in Frameworks */,
+				1D52DA0E251349FFA0E72A37 /* libPods.a in Frameworks */,
+				646A944718531314009604A9 /* libDoubanApiEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +124,14 @@
 		64C4BB4B1851A24100695959 = {
 			isa = PBXGroup;
 			children = (
+				646A943F1851A56E009604A9 /* LICENSE */,
+				646A94401851A56E009604A9 /* README.md */,
 				64F9BD881851A2D600F112A5 /* DoubanActivityDemo */,
 				64C4BB5D1851A24100695959 /* DoubanActivity */,
 				64C4BB7C1851A24100695959 /* DoubanActivityTests */,
 				64C4BB561851A24100695959 /* Frameworks */,
 				64C4BB551851A24100695959 /* Products */,
+				781B826F70944433B804BAF0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,10 +147,17 @@
 		64C4BB561851A24100695959 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				641C806018537888003D90EB /* MobileCoreServices.framework */,
+				641C805E18537882003D90EB /* SystemConfiguration.framework */,
+				641C805C1853787C003D90EB /* Security.framework */,
+				641C805A18537875003D90EB /* CFNetwork.framework */,
+				641C80581853786A003D90EB /* libz.dylib */,
+				641C80561853785F003D90EB /* libxml2.dylib */,
 				64C4BB571851A24100695959 /* Foundation.framework */,
 				64C4BB591851A24100695959 /* CoreGraphics.framework */,
 				64C4BB5B1851A24100695959 /* UIKit.framework */,
 				64C4BB761851A24100695959 /* XCTest.framework */,
+				C3458028E6B2410CBB2CF27F /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,6 +168,9 @@
 				64F9BD9C1851A2F700F112A5 /* Resources */,
 				64F9BDA11851A34300F112A5 /* DoubanActivity.h */,
 				64F9BDA21851A34300F112A5 /* DoubanActivity.m */,
+				641C806F185451ED003D90EB /* DoubanLoginViewController.h */,
+				641C8070185451ED003D90EB /* DoubanLoginViewController.m */,
+				641C8071185451ED003D90EB /* DoubanLoginViewController.xib */,
 			);
 			path = DoubanActivity;
 			sourceTree = "<group>";
@@ -175,6 +222,7 @@
 		64F9BD9C1851A2F700F112A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				646A944618531314009604A9 /* libDoubanApiEngine.framework */,
 				64F9BD9D1851A2F700F112A5 /* icon_douban.png */,
 				64F9BD9E1851A2F700F112A5 /* icon_douban@2x.png */,
 			);
@@ -188,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C4BB861851A24100695959 /* Build configuration list for PBXNativeTarget "DoubanActivity" */;
 			buildPhases = (
+				4E01AF6F792E4FE3831879DF /* Check Pods Manifest.lock */,
 				64C4BB501851A24100695959 /* Sources */,
 				64C4BB511851A24100695959 /* Frameworks */,
 				64C4BB521851A24100695959 /* Resources */,
+				B3276D6B318D4431BCDADB9C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,8 +310,11 @@
 				64F9BD971851A2D600F112A5 /* DoubanActivity-Info.plist in Resources */,
 				64F9BD991851A2D600F112A5 /* Images.xcassets in Resources */,
 				64F9BDA01851A2F700F112A5 /* icon_douban@2x.png in Resources */,
+				646A94411851A56E009604A9 /* LICENSE in Resources */,
 				64F9BD981851A2D600F112A5 /* InfoPlist.strings in Resources */,
 				64F9BD9F1851A2F700F112A5 /* icon_douban.png in Resources */,
+				641C8073185451ED003D90EB /* DoubanLoginViewController.xib in Resources */,
+				646A94421851A56E009604A9 /* README.md in Resources */,
 				64F9BD961851A2D600F112A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +329,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E01AF6F792E4FE3831879DF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3276D6B318D4431BCDADB9C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		64C4BB501851A24100695959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -285,6 +371,7 @@
 				64F9BDA31851A34300F112A5 /* DoubanActivity.m in Sources */,
 				64F9BD9A1851A2D600F112A5 /* main.m in Sources */,
 				64F9BD9B1851A2D600F112A5 /* ViewController.m in Sources */,
+				641C8072185451ED003D90EB /* DoubanLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +496,14 @@
 		};
 		64C4BB871851A24100695959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781B826F70944433B804BAF0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/iDay/Documents/fishead/DoubanActivity/DoubanActivity/Resources,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoubanActivityDemo/DoubanActivity-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DoubanActivityDemo/DoubanActivity-Info.plist";
@@ -423,9 +515,14 @@
 		};
 		64C4BB881851A24100695959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 781B826F70944433B804BAF0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/iDay/Documents/fishead/DoubanActivity/DoubanActivity/Resources,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DoubanActivityDemo/DoubanActivity-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/DoubanActivityDemo/DoubanActivity-Info.plist";

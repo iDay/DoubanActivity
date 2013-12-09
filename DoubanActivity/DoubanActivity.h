@@ -8,6 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DoubanActivity : UIActivity
+#define IMAGE_EXTENSION @[@"jpg", @"png"]
+
+@interface DoubanActivity : UIActivity <UIAlertViewDelegate>
+
+- (id)initWithViewController:(UIViewController *)viewController apiKey:(NSString *)apiKey privateKey:(NSString *)privateKey;
+
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSURL *imageUrl;
+@property (nonatomic, strong) NSURL *url;
+@property (nonatomic, strong) UIImage *image;
+@property (nonatomic, strong) UIViewController *viewController;
+
+@property (nonatomic, strong) NSString *apiKey;
+@property (nonatomic, strong) NSString *privateKey;
+
+@end
+
+@protocol DoubanActivityDelegate <NSObject>
+
+- (void)loginView;
 
 @end
