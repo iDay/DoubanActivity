@@ -105,6 +105,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
         NSString *code = [parsedQuery objectForKey:@"code"];
         DOUOAuthService *service = [DOUOAuthService sharedInstance];
         service.authorizationURL = kTokenUrl;
+        service.delegate = self;
         service.clientId = [DOUService sharedInstance].clientId;
         service.clientSecret = [DOUService sharedInstance].clientSecret;
         service.callbackURL = kRedirectUrl;
@@ -116,6 +117,15 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
     }
     
     return YES;
+}
+
+- (void)OAuthClient:(DOUOAuthService *)client didAcquireSuccessDictionary:(NSDictionary *)dic {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)OAuthClient:(DOUOAuthService *)client didFailWithError:(NSError *)error {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"出错啦" message:@"登录失败" delegate:nil cancelButtonTitle:@"关闭" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
 @end

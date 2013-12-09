@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="64" width="320" height="504"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tg5-Kn-Bsp">
+                <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tg5-Kn-Bsp">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -26,6 +26,12 @@
                 </webView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tg5-Kn-Bsp" secondAttribute="trailing" id="Ggu-Wg-zr1"/>
+                <constraint firstItem="Tg5-Kn-Bsp" firstAttribute="top" secondItem="1" secondAttribute="top" id="Mlg-kq-c47"/>
+                <constraint firstAttribute="bottom" secondItem="Tg5-Kn-Bsp" secondAttribute="bottom" id="ODA-Wa-wfw"/>
+                <constraint firstItem="Tg5-Kn-Bsp" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="Xqz-OB-rtX"/>
+            </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

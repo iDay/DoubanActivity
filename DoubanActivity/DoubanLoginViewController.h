@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <libDoubanApiEngine/DOUAPIEngine.h>
 
-@interface DoubanLoginViewController : UIViewController <UIWebViewDelegate>
+@interface DoubanLoginViewController : UIViewController <UIWebViewDelegate, DOUOAuthServiceDelegate>
 
 @property (nonatomic, strong) IBOutlet UIWebView *webView;
 
