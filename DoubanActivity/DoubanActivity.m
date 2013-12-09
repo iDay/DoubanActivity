@@ -134,8 +134,6 @@
                         [[DOUService sharedInstance] post:query postBody:bodyStr callback:^(DOUHttpRequest *req) {
                             if (req.error) {
                                 NSLog(@"%@", [req.error description]);
-                            } else {
-                                NSLog(@"%@", @"成功");
                             }
                         }];
                     }
