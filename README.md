@@ -25,7 +25,7 @@ DoubanActivity
 
 * Drag the `DoubanActivity/` folder to your project
 * Download [REComposeViewController](https://github.com/romaonthego/REComposeViewController) and follow its install instructions
-* Add the `MobileCoreServices.framework`,`SystemConfiguration.framework`,`Security.framework`,`CFNetwork.framework`,`libz.dylib`,`libxml2.framework`,`QuartzGraphics.framework` to your project
+* Add the `MobileCoreServices.framework`,`SystemConfiguration.framework`,`Security.framework`,`CFNetwork.framework`,`libz.dylib`,`libxml2.dylib`,`QuartzGraphics.framework` to your project
 
 ## Getting Started
 
