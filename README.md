@@ -13,4 +13,4 @@ DoubanActivity
 
 * iOS 6.0+
 * ARC
-* [REComposeViewController][https://github.com/romaonthego/REComposeViewController]
+* [REComposeViewController](https://github.com/romaonthego/REComposeViewController)
