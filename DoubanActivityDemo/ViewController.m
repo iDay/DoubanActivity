@@ -30,7 +30,7 @@
 
 - (IBAction)share:(id)sender
 {
-    UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:@[@"这里是标题", [NSURL URLWithString:@"http://www.google.com"], [UIImage imageNamed:@"OAuth"]] applicationActivities:@[[[DoubanActivity alloc] initWithViewController:self apiKey:@"04e0b2ab7ca02a8a0ea2180275e07f9e" privateKey:@"4275ee2fa3689a2f"]]];
+    UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:@[@"这里是标题", [UIImage imageNamed:@"OAuth"]] applicationActivities:@[[[DoubanActivity alloc] initWithViewController:self apiKey:@"04e0b2ab7ca02a8a0ea2180275e07f9e" privateKey:@"4275ee2fa3689a2f"]]];
     activityView.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypeCopyToPasteboard, UIActivityTypePrint];
     [self presentViewController:activityView animated:YES completion:nil];
 }
