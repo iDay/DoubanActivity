@@ -7,7 +7,7 @@
 //
 
 #import "DoubanActivity.h"
-#import "REComposeViewController.h"
+#import "DoubanComposeViewController.h"
 #import <libDoubanApiEngine/DOUAPIEngine.h>
 #import "DoubanLoginViewController.h"
 
@@ -99,7 +99,7 @@
 
 - (void)performActivity
 {
-    REComposeViewController *composeView = [[REComposeViewController alloc] init];
+    DoubanComposeViewController *composeView = [[DoubanComposeViewController alloc] init];
     if (!REUIKitIsFlatMode()) {
         composeView.navigationBar.tintColor = [UIColor colorWithRed:0.11f green:0.58f blue:0.22f alpha:1.0f];
     }
@@ -115,12 +115,8 @@
         composeView.hasAttachment = YES;
     }
     [self activityDidFinish:YES];
-    if ([[DOUOAuthStore sharedInstance] userId] == 0) {
-        [[composeView.navigationItem.rightBarButtonItems lastObject] setTitle:@"登录"];
-    }
     
     composeView.completionHandler = ^(REComposeViewController *composeViewController, REComposeResult result) {
-        [composeViewController dismissViewControllerAnimated:YES completion:nil];
         switch (result) {
             case REComposeResultPosted:
                 if ([[DOUOAuthStore sharedInstance] userId] == 0) {
@@ -150,9 +146,11 @@
                             }
                         }];
                     }
+                    [composeViewController dismissViewControllerAnimated:YES completion:nil];
                 }
                 break;
             default:
+                [composeViewController dismissViewControllerAnimated:YES completion:nil];
                 break;
         }
     };

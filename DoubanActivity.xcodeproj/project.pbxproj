@@ -27,6 +27,7 @@
 		64C4BB791851A24100695959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C4BB5B1851A24100695959 /* UIKit.framework */; };
 		64C4BB811851A24100695959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C4BB7F1851A24100695959 /* InfoPlist.strings */; };
 		64C4BB831851A24100695959 /* DoubanActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C4BB821851A24100695959 /* DoubanActivityTests.m */; };
+		64F980E3185FD47800CA5942 /* DoubanComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F980E2185FD47800CA5942 /* DoubanComposeViewController.m */; };
 		64F9BD951851A2D600F112A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F9BD8A1851A2D600F112A5 /* AppDelegate.m */; };
 		64F9BD961851A2D600F112A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD8B1851A2D600F112A5 /* Main.storyboard */; };
 		64F9BD971851A2D600F112A5 /* DoubanActivity-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64F9BD8D1851A2D600F112A5 /* DoubanActivity-Info.plist */; };
@@ -71,6 +72,8 @@
 		64C4BB7E1851A24100695959 /* DoubanActivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubanActivityTests-Info.plist"; sourceTree = "<group>"; };
 		64C4BB801851A24100695959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64C4BB821851A24100695959 /* DoubanActivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubanActivityTests.m; sourceTree = "<group>"; };
+		64F980E1185FD47800CA5942 /* DoubanComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubanComposeViewController.h; sourceTree = "<group>"; };
+		64F980E2185FD47800CA5942 /* DoubanComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubanComposeViewController.m; sourceTree = "<group>"; };
 		64F9BD891851A2D600F112A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F9BD8A1851A2D600F112A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64F9BD8C1851A2D600F112A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				641C806F185451ED003D90EB /* DoubanLoginViewController.h */,
 				641C8070185451ED003D90EB /* DoubanLoginViewController.m */,
 				641C8071185451ED003D90EB /* DoubanLoginViewController.xib */,
+				64F980E1185FD47800CA5942 /* DoubanComposeViewController.h */,
+				64F980E2185FD47800CA5942 /* DoubanComposeViewController.m */,
 			);
 			path = DoubanActivity;
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 				64F9BDA31851A34300F112A5 /* DoubanActivity.m in Sources */,
 				64F9BD9A1851A2D600F112A5 /* main.m in Sources */,
 				64F9BD9B1851A2D600F112A5 /* ViewController.m in Sources */,
+				64F980E3185FD47800CA5942 /* DoubanComposeViewController.m in Sources */,
 				641C8072185451ED003D90EB /* DoubanLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

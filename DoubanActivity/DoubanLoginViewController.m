@@ -58,6 +58,7 @@ static NSString * const kRedirectUrl = @"http://www.douban.com/location/mobile";
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"登录";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh:)];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel:)];
     

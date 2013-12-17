@@ -10,7 +10,7 @@
 
 #define IMAGE_EXTENSION @[@"jpg", @"png"]
 
-@interface DoubanActivity : UIActivity <UIAlertViewDelegate>
+@interface DoubanActivity : UIActivity
 
 - (id)initWithViewController:(UIViewController *)viewController apiKey:(NSString *)apiKey privateKey:(NSString *)privateKey;
 
